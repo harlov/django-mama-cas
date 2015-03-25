@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-25 05:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: forms.py:14
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: forms.py:16
+msgid "Please enter your username"
+msgstr "Пожалуйста, введите ваше имя пользователя"
+
+#: forms.py:17
+msgid "Password"
+msgstr "Пароль"
+
+#: forms.py:19
+msgid "Please enter your password"
+msgstr "Пожалуйста, введите ваш пароль"
+
+#: forms.py:26
+msgid "Warn before automatic login to other services"
+msgstr ""
+
+#: forms.py:44
+msgid "Internal error while authenticating user"
+msgstr "Во время аунтефикации произошла внутренняя ошибка сервиса"
+
+#: forms.py:49
+msgid "The username or password is not correct"
+msgstr "Неверные имя пользователя или пароль"
+
+#: forms.py:54
+msgid "This user account is disabled"
+msgstr "Данный аккуант отключен"
+
+#: forms.py:72
+msgid "Invalid username provided"
+msgstr "Данный пользователь не существует"
+
+#: mixins.py:184
+msgid "You have been successfully logged out"
+msgstr "Вы вышли"
+
+#: models.py:153
+msgid "ticket"
+msgstr "тикет"
+
+#: models.py:154
+msgid "user"
+msgstr "пользователь"
+
+#: models.py:155
+msgid "expires"
+msgstr "истекает"
+
+#: models.py:156
+msgid "consumed"
+msgstr "используемый"
+
+#: models.py:231 models.py:277
+msgid "service"
+msgstr "сервис"
+
+#: models.py:232
+msgid "primary"
+msgstr "основной"
+
+#: models.py:237
+msgid "service ticket"
+msgstr "тикет сервиса"
+
+#: models.py:238
+msgid "service tickets"
+msgstr "тикеты сервиса"
+
+#: models.py:279
+msgid "granted by proxy-granting ticket"
+msgstr "предоставлен по прокси-тикету"
+
+#: models.py:282
+msgid "proxy ticket"
+msgstr "прокси-тикет"
+
+#: models.py:283
+msgid "proxy tickets"
+msgstr "прокси-тикеты"
+
+#: models.py:392
+msgid "iou"
+msgstr ""
+
+#: models.py:395
+msgid "granted by service ticket"
+msgstr "предоставлен сервис-тикетом"
+
+#: models.py:398
+msgid "granted by proxy ticket"
+msgstr "предоставлен прокси-тикетом"
+
+#: models.py:403
+msgid "proxy-granting ticket"
+msgstr ""
+
+#: models.py:404
+msgid "proxy-granting tickets"
+msgstr ""
+
+#: templates/mama_cas/__base.html:11 templates/mama_cas/__base.html.py:58
+msgid "Central Authentication Service"
+msgstr "Центральный аунтефикационный сервис"
+
+#: templates/mama_cas/__login.html:23
+msgid "Login"
+msgstr "Логин"
+
+#: templates/mama_cas/__warn.html:8
+msgid "Yes, continue"
+msgstr "Да, продолжить"
+
+#: templates/mama_cas/__warn.html:10
+msgid "No, log me out"
+msgstr "Нет, выйти."
+
+#: views.py:90
+#, python-format
+msgid "You are logged in as %s"
+msgstr "Вы вошли как %s"
+
+#: views.py:163
+#, python-format
+msgid "Do you want to access %(service)s as %(user)s?"
+msgstr "Вы хотите войти в сервис %(service)s как %(user)s?"
+
+#: views.py:201
+#, python-format
+msgid "The application provided this link to follow: %s"
+msgstr "Приложение предоставило ссылку для продолжения: %s"
