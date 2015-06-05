@@ -60,6 +60,12 @@ class LoginView(CsrfProtectMixin, NeverCacheMixin, LogoutUserMixin, FormView):
            the specified service.
         """
         service = request.GET.get('service')
+        if not service:
+            request.session['service'] = service
+        else:
+            if 'service' in request.session:
+                service = request.session['service']
+
         renew = to_bool(request.GET.get('renew'))
         gateway = to_bool(request.GET.get('gateway'))
 
