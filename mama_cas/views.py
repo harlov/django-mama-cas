@@ -62,7 +62,9 @@ class LoginView(CsrfProtectMixin, NeverCacheMixin, LogoutUserMixin, FormView):
         service = request.GET.get('service')
         if service:
             request.session['service'] = service
+            print('SERVICE %s SETTED TO SESSION' % (service, ))
         else:
+            print('SERVICE EMPTY')
             if 'service' in request.session:
                 service = request.session['service']
 
