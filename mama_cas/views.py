@@ -60,7 +60,7 @@ class LoginView(CsrfProtectMixin, NeverCacheMixin, LogoutUserMixin, FormView):
            the specified service.
         """
         service = request.GET.get('service')
-        if not service:
+        if service:
             request.session['service'] = service
         else:
             if 'service' in request.session:
